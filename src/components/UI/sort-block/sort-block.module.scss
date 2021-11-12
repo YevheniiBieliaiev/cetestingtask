@@ -1,0 +1,28 @@
+.sort_wrapper {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+}
+
+.sort_button {
+  margin: 10px;
+  background: #2196f3;
+  font-size: 18px;
+  line-height: 21px;
+  color: #ffffff;
+  font-weight: 700;
+  border-radius: 20px;
+  border: none;
+  cursor: pointer;
+  width: 210px;
+  padding: 10px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.4);
+  &:hover {
+    opacity: 0.8;
+  }
+  &:active {
+    opacity: 1;
+    background: #1084e2;
+  }
+}
